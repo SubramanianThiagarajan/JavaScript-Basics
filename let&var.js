@@ -3,7 +3,7 @@ let let_global = "Global let variable";
 console.log(let_global);
 
 if(true){
-    hi = "Hello World";   // Declaration like this is also possible
+    hi = "Hello World";   // Declaration like this is also possible but don't use it, may lead to kings territory problem
     let let_local = "Local let variable";
     console.log(let_global);
     console.log(let_local);
